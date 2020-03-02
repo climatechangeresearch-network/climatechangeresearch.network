@@ -1,0 +1,536 @@
+
+/* - research_theme.css - */
+@media all {
+/* https://climatechangeresearch.network/portal_css/research_theme.css?original=1 */
+* {
+margin: 0;
+padding: 0; }
+.clearfix {
+display: block;
+height: 1%; }
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+line-height: 0;
+content: ' ';
+clear: both;
+height: 0;
+width: 0; }
+.clear {
+font-size: 100%; }
+#portal-header {
+background-size: contain;
+position: relative;
+z-index: 2; }
+#portal-header img {
+float: left;
+max-width: 250px; }
+#portal-logo {
+text-align: right;
+margin: 2em 1em;
+right: 1em;
+position: absolute;
+max-width: 70%;
+padding: .5em 0 0;
+line-height: .9em; }
+.section-home #portal-breadcrumbs {
+display: none; }
+#searchGadget {
+width: 10em; }
+#portal-columns {
+margin-top: 1em; }
+#content-core {
+background-repeat: no-repeat;
+background-size: contain; }
+#documentEditable {
+display: block;
+padding-right: 15px;
+width: 786px; }
+.mceToolbar {
+white-space: normal !important; }
+.multipleSelectionWidget dt {
+display: block !important; }
+#parent-fieldname-text.plain {
+padding-bottom: 0; }
+dl.captioned {
+margin-right: 2em; }
+#content-core .captioned dd {
+margin: 0; }
+.image-inline {
+float: none;
+margin: 0;
+max-width: 100%;
+vertical-align: text-bottom; }
+.embed-responsive {
+display: block;
+height: 0;
+overflow: hidden;
+padding: 0;
+position: relative; }
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video {
+border: 0 none;
+bottom: 0;
+height: 100%;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%; }
+.embed-responsive.embed-responsive-16by9 {
+padding-bottom: 56.25%; }
+.embed-responsive.embed-responsive-4by3 {
+padding-bottom: 75%; }
+@media screen and (max-width: 480px) {
+#portal-logo {
+font-size: 70%;
+margin: 0;
+position: relative;
+right: inherit; }
+#portal-header img {
+max-width: 30%; } }
+@media screen and (max-width: 768px) and (min-width: 480px) {
+#portal-logo {
+font-size: 80%;
+max-width: 45%; } }
+body {
+background-color: #ededed;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+height: 100%; }
+#portal-header {
+background: url("../../grad_green.png") repeat-x; }
+h1 {
+color: #275543;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+font-size: 1.8em;
+font-weight: normal;
+letter-spacing: -.06em;
+margin-bottom: .5em;
+padding-top: .5em; }
+#portal-logo h1 {
+color: #fff;
+line-height: 0.9em; }
+h2 {
+color: #37785f;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+font-size: 1.6em;
+font-weight: normal;
+margin-bottom: .5em;
+padding-top: .5em; }
+h3 {
+color: #479b7a;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+font-weight: bold; }
+h4 {
+color: #5fb694;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+font-weight: bold; }
+h5 {
+color: #82c6ab;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif; }
+p {
+color: #000; }
+a {
+color: #3377a6; }
+a:link, a:visited {
+color: #339; }
+#visual-portal-wrapper {
+overflow: auto;
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 0;
+background: #fff;
+min-height: 100%;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc; }
+#portal-top {
+background: #fff; }
+#portal-personaltools {
+background: none transparent;
+float: right;
+font-size: 80%;
+padding: .25em .5em;
+position: relative;
+right: 0;
+top: 0;
+z-index: 3; }
+#portal-personaltools #anon-personalbar a {
+color: #fff;
+float: left;
+margin: 0 .5em; }
+#portal-personaltools dd {
+background: #479b7a;
+padding-bottom: .5em; }
+dl.actionMenu a,
+dl.actionMenu div {
+color: #fff; }
+#portal-searchbox {
+clear: right;
+float: right;
+font-size: 80%;
+text-align: left;
+width: 100%;
+background-color: #779c89;
+background-size: 100%;
+margin-bottom: 0;
+margin-top: 0;
+border-bottom: 2px solid #779c89;
+display: none; }
+#portal-searchbox form {
+float: right;
+padding: 5px 5px 5px 0px; }
+#searchGadget,
+.LSBox input.searchButton {
+background-color: #fff;
+color: #000;
+border: 1px #000 solid; }
+.searchSection {
+color: #fff; }
+#search-filter .field {
+background-color: #275543;
+margin: 0;
+padding: 1em 1.5em; }
+#portal-globalnav {
+background: #779c89;
+clear: both;
+font-size: 0.9em;
+margin: 0; }
+#portal-globalnav li {
+margin-left: .3em; }
+#portal-globalnav li a {
+background: none;
+border-right: 0;
+clear: both;
+color: #fff;
+display: inline-block;
+font-size: 80%;
+font-weight: normal;
+width: auto;
+text-align: center;
+padding-bottom: .7em;
+min-width: 0%; }
+#portal-globalnav a:hover,
+#portal-globalnav .selected a {
+background: #fff;
+clear: both;
+color: #275543;
+font-size: 80%; }
+#portal-globalnav .selected a:hover {
+color: #275543;
+background-color: #fff; }
+table.listing {
+border: normal; }
+table.listing td {
+border: normal; }
+table.listing th {
+-moz-border-bottom-colors: none;
+-moz-border-image: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+background: #779c89;
+color: #fff;
+text-align: left; }
+table.listing tbody tr.odd td {
+background: #ccc; }
+#content {
+clear: both;
+font-size: 80%;
+line-height: 1.5em;
+max-width: 100%; }
+#content table {
+border-collapse: collapse;
+border-spacing: 0;
+text-align: left; }
+#content .documentFirstHeading {
+font-size: 2em; }
+#content a {
+color: #3377a6; }
+#content a:hover {
+color: #779c89 !important; }
+#content a:link, #content a:visited {
+border: 0 none;
+text-decoration: none; }
+#content .internal-link {
+font-size: 100%; }
+#content .documentDescription {
+margin: 0.5em 0; }
+#portal-column-one,
+#portal-column-two {
+background: #fff;
+overflow: visible; }
+dl.portlet {
+background-color: #ededed;
+font-size: 70%; }
+dl.portlet a {
+border: 0 none; }
+dl.portlet a:hover {
+color: #779c89 !important; }
+dl.portlet dt {
+background-color: #275543;
+color: #fff;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+line-height: normal;
+padding: .42em 1em; }
+dl.portlet dt a:link, dl.portlet dt a:visited {
+color: #fff;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif; }
+dl.portlet dt a:hover {
+color: #e6e6e6 !important; }
+dt.portletHeader {
+color: #275543;
+font-size: 1.5em;
+font-weight: normal; }
+.blockedPortlet .portletBlockedMessage {
+color: #ccc; }
+.tileFooter {
+padding-bottom: 1em;
+padding-top: 1em; }
+#portal-footer-wrapper {
+border-top: 0.5em solid #ccc;
+margin-top: 2em;
+padding-top: 1.5em; }
+#portal-footer {
+background-color: #fff; }
+p.paragraph-highlight-grey {
+background-color: #ccc;
+padding: 1em; }
+p.paragraph-spaced-images a {
+margin-left: .25em;
+margin-right: .25em; }
+.twitter-timeline[style] {
+min-width: 100% !important; }
+dl.TwitterWidgetPortlet dd.portletItem {
+padding-bottom: 0;
+padding-top: 0; }
+dl.TwitterWidgetPortlet dd.portletFooter {
+padding: 0; }
+body.section-nccarf {
+background-color: #e8e8c8;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+height: 100%; }
+.section-nccarf #portal-header {
+background: #5b794e no-repeat; }
+.section-nccarf h1 {
+color: #5b794e;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+font-size: 1.8em;
+font-weight: normal;
+letter-spacing: -.06em;
+margin-bottom: .5em;
+padding-top: .5em; }
+#portal-logo .section-nccarf h1 {
+color: #fff;
+line-height: 0.9em; }
+.section-nccarf h2 {
+color: #729862;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+font-size: 1.6em;
+font-weight: normal;
+margin-bottom: .5em;
+padding-top: .5em; }
+.section-nccarf h3 {
+color: #8ead80;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+font-weight: bold; }
+.section-nccarf h4 {
+color: #a9c19f;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+font-weight: bold; }
+.section-nccarf h5 {
+color: #c5d5be;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif; }
+.section-nccarf p {
+color: #000; }
+.section-nccarf a {
+color: #3377a6; }
+.section-nccarf a:link, .section-nccarf a:visited {
+color: #339; }
+.section-nccarf #visual-portal-wrapper {
+overflow: auto;
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 0;
+background: #fff;
+min-height: 100%;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc; }
+.section-nccarf #portal-top {
+background: #fff; }
+.section-nccarf #portal-personaltools {
+background: none transparent;
+float: right;
+font-size: 80%;
+padding: .25em .5em;
+position: relative;
+right: 0;
+top: 0;
+z-index: 3; }
+.section-nccarf #portal-personaltools #anon-personalbar a {
+color: #fff;
+float: left;
+margin: 0 .5em; }
+.section-nccarf #portal-personaltools dd {
+background: #8ead80;
+padding-bottom: .5em; }
+.section-nccarf dl.actionMenu a,
+.section-nccarf dl.actionMenu div {
+color: #fff; }
+.section-nccarf #portal-searchbox {
+clear: right;
+float: right;
+font-size: 80%;
+text-align: left;
+width: 100%;
+background-color: #6f935f;
+background-size: 100%;
+margin-bottom: 0;
+margin-top: 0;
+border-bottom: 2px solid #6f935f;
+display: none; }
+.section-nccarf #portal-searchbox form {
+float: right;
+padding: 5px 5px 5px 0px; }
+.section-nccarf #searchGadget,
+.section-nccarf .LSBox input.searchButton {
+background-color: #fff;
+color: #000;
+border: 1px #000 solid; }
+.section-nccarf .searchSection {
+color: #fff; }
+.section-nccarf #search-filter .field {
+background-color: #5b794e;
+margin: 0;
+padding: 1em 1.5em; }
+.section-nccarf #portal-globalnav {
+background: #6f935f;
+clear: both;
+font-size: 0.9em;
+margin: 0; }
+.section-nccarf #portal-globalnav li {
+margin-left: .3em; }
+.section-nccarf #portal-globalnav li a {
+background: none;
+border-right: 0;
+clear: both;
+color: #fff;
+display: inline-block;
+font-size: 80%;
+font-weight: normal;
+width: auto;
+text-align: center;
+padding-bottom: .7em;
+min-width: 0%; }
+.section-nccarf #portal-globalnav a:hover,
+.section-nccarf #portal-globalnav .selected a {
+background: #fff;
+clear: both;
+color: #275543;
+font-size: 80%; }
+.section-nccarf #portal-globalnav .selected a:hover {
+color: #275543;
+background-color: #fff; }
+.section-nccarf table.listing {
+border: normal; }
+.section-nccarf table.listing td {
+border: normal; }
+.section-nccarf table.listing th {
+-moz-border-bottom-colors: none;
+-moz-border-image: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+background: #6f935f;
+color: #fff;
+text-align: left; }
+.section-nccarf table.listing tbody tr.odd td {
+background: #ccc; }
+.section-nccarf #content {
+clear: both;
+font-size: 80%;
+line-height: 1.5em;
+max-width: 100%; }
+.section-nccarf #content table {
+border-collapse: collapse;
+border-spacing: 0;
+text-align: left; }
+.section-nccarf #content .documentFirstHeading {
+font-size: 2em; }
+.section-nccarf #content a {
+color: #3377a6; }
+.section-nccarf #content a:hover {
+color: #6f935f !important; }
+.section-nccarf #content a:link, .section-nccarf #content a:visited {
+border: 0 none;
+text-decoration: none; }
+.section-nccarf #content .internal-link {
+font-size: 100%; }
+.section-nccarf #content .documentDescription {
+margin: 0.5em 0; }
+.section-nccarf #portal-column-one,
+.section-nccarf #portal-column-two {
+background: #fff;
+overflow: visible; }
+.section-nccarf dl.portlet {
+background-color: #e8e8c8;
+font-size: 70%; }
+.section-nccarf dl.portlet a {
+border: 0 none; }
+.section-nccarf dl.portlet a:hover {
+color: #6f935f !important; }
+.section-nccarf dl.portlet dt {
+background-color: #5b794e;
+color: #fff;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif;
+line-height: normal;
+padding: .42em 1em; }
+.section-nccarf dl.portlet dt a:link, .section-nccarf dl.portlet dt a:visited {
+color: #fff;
+font-family: "Helvetica Neue", "Trebuchet MS", Helvetica, Arial, sans-serif; }
+.section-nccarf dl.portlet dt a:hover {
+color: #e6e6e6 !important; }
+.section-nccarf dt.portletHeader {
+color: #5b794e;
+font-size: 1.5em;
+font-weight: normal; }
+.section-nccarf .blockedPortlet .portletBlockedMessage {
+color: #ccc; }
+.section-nccarf .tileFooter {
+padding-bottom: 1em;
+padding-top: 1em; }
+.section-nccarf #portal-footer-wrapper {
+border-top: 0.5em solid #ccc;
+margin-top: 2em;
+padding-top: 1.5em; }
+.section-nccarf #portal-footer {
+background-color: #fff; }
+.section-nccarf p.paragraph-highlight-grey {
+background-color: #ccc;
+padding: 1em; }
+.section-nccarf p.paragraph-spaced-images a {
+margin-left: .25em;
+margin-right: .25em; }
+.section-nccarf .twitter-timeline[style] {
+min-width: 100% !important; }
+.section-nccarf dl.TwitterWidgetPortlet dd.portletItem {
+padding-bottom: 0;
+padding-top: 0; }
+.section-nccarf dl.TwitterWidgetPortlet dd.portletFooter {
+padding: 0; }
+
+}
+
+
+/* - ploneCustom.css - */
+@media all {
+/* https://climatechangeresearch.network/portal_css/ploneCustom.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+
+}
+
